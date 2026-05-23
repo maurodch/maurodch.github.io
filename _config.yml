@@ -63,6 +63,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Theme settings
-remote_theme: raviriley/agency-jekyll-theme
