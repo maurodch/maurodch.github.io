@@ -17,10 +17,10 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://maurodch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/maurodch.github.io" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+title      : Mauro D'Achille
+email      : mauro.dachille@outlook.com #this is also the email contact forms will go to
+description: "Mauro D'Achille's personal website"
+author     : Mauro D'Achille
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
