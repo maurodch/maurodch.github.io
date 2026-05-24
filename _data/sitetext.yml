@@ -45,29 +45,29 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
+      - title: "PhD @ Friedrich Schiller Universität Jena, Germany"
         year: "2023-Present"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Currently working at the intersection of quantum simulation, quantum optics, quantum information and quantum field theory on curved spacetime!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
+      - title: "Master @ Università degli studi di Trieste, Italy"
         year: "2019--2023"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Master degree in theoretical physics with a focus on quantum field theory and general relativity."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
+      - title: "Bachelor @ Sapienza Università di Roma, Italy"
         year: "2015--2018"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        desc: "Bachelor degree in physics."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
+      - title: "Me"
         year: "2009-2011"
         desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    # end: "Be Part <br> of Our <br> Story!"
+    end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Me"
