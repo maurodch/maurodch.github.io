@@ -139,17 +139,17 @@
   }
 }
 
-/* Mobile-only adjustment to fix weird image cropping */
-@media (max-width: 767px) {
-  .portfolio-item img,
-  .portfolio-link img {
-    object-position: top center !important; /* Option A: Keeps size but shifts crop focus to the top */
+// /* Mobile-only adjustment to fix weird image cropping */
+// @media (max-width: 767px) {
+//   .portfolio-item img,
+//   .portfolio-link img {
+//     object-position: top center !important; /* Option A: Keeps size but shifts crop focus to the top */
     
-    /* UNCOMMENT THE TWO LINES BELOW IF YOU PREFER OPTION B (Shrink whole image to fit) */
-    /* object-fit: contain !important; */
-    /* height: 210px !important; */
-  }
-}
+//     /* UNCOMMENT THE TWO LINES BELOW IF YOU PREFER OPTION B (Shrink whole image to fit) */
+//     /* object-fit: contain !important; */
+//     /* height: 210px !important; */
+//   }
+// }
 
 // Other option:
 // @media (max-width: 767px) {

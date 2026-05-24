@@ -26,6 +26,24 @@ header.masthead {
     }
   }
 }
+// Mobile-only header adjustment
+@media (max-width: 767px) {
+  header.masthead {
+    background-size: 100% auto !important; // Forces the width to fit the phone screen perfectly
+    background-color: #212529; // Adds a fallback background color if your image gets short
+    .intro-text {
+      padding-top: 100px !important; // Shrinks padding so text fits inside the smaller image box
+      padding-bottom: 60px !important;
+    }
+  }
+}
+// // Load a custom vertical image only for mobile devices
+// @media (max-width: 767px) {
+//   header.masthead {
+//     background-image: url("../img/header-mobile.jpg") !important; // Replace with your mobile image path
+//     background-position: center center !important;
+//   }
+// }
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
