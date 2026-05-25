@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "My Projects"
+    - title: "Projects"
       section: portfolio
-    - title: "Teaching"
+    - title: "Beyond research"
       section: services
     - title: "About Me"
       section: about

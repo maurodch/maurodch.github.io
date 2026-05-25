@@ -1,5 +1,11 @@
 // Styling for the portfolio section
 #portfolio {
+  background-color: $white !important; /* <-- white background of the section */
+  padding-bottom: 40px !important; /* <-- ADD THIS LINE to decrease space on mobile/small screens */
+  
+  @media (min-width: 768px) {
+    padding-bottom: 50px !important; /* <-- ADD THIS LINE to decrease space on desktop screens */
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
